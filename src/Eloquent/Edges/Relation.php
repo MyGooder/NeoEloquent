@@ -508,7 +508,7 @@ abstract class Relation extends Delegate {
      *
      * @return string
      */
-    protected function getDateFormat()
+    public function getDateFormat()
     {
         return $this->getConnection()->getQueryGrammar()->getDateFormat();
     }
