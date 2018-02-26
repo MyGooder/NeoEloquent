@@ -217,5 +217,8 @@ class DatabaseMigrationRepository implements MigrationRepositoryInterface {
 
         return $results;
     }
-
+    public function getMigrationBatches()
+    {
+        
+    }
 }
